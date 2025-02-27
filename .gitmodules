@@ -1,0 +1,3 @@
+[submodule "vujade-python"]
+	path = vujade-python
+	url = https://github.com/vujadeyoon/vujade-python
