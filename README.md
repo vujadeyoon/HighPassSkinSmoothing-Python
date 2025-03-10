@@ -22,7 +22,8 @@ wget https://raw.githubusercontent.com/YuAo/YUCIHighPassSkinSmoothing/refs/heads
 
 ## 3. How to run <a name="run"></a>
 ```bash
-python3 main.py --path_img_src "./asset/SampleImage.jpg" --level_smooth "200.0" --level_whiten "3.0"
+$ python3 main.py --path_img_src "./asset/SampleImage.jpg" --path_img_dst "./asset/SampleImage_refined.jpg" --level_auto
+$ python3 main.py --path_img_src "./asset/SampleImage.jpg" --path_img_dst "./asset/SampleImage_refined.jpg" --level_smooth "200.0" --level_whiten "3.0"
 ```
 
 
